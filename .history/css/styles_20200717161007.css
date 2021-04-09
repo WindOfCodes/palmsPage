@@ -1,0 +1,235 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/subtle_white_mini_waves.png);
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imgNav{
+    position: relative;
+}
+
+.topImage{
+    position: absolute;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 2;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+li{
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+a:hover{
+    display: block;
+    text-decoration: none;
+    font-weight: 900;
+    display: block;
+    color: #52ac31;
+    cursor: pointer;
+}
+
+.basics{
+    width: 100%;
+    margin-top: 100px;
+    padding: 0;
+}
+
+.name{
+    font-family: 'Petit Formal Script', cursive;
+    position: relative;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 115px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    float: left;
+}
+
+.basicInfo{
+    position: relative;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 0;
+    float: left;
+}
+
+.about{
+    width: 100%;
+    margin-top: 240px;
+}
+
+#pL{
+    text-align: left;
+    font-size: 18px;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 60px;
+    color: #000000;
+    position: absolute;
+    z-index: 1;
+}
+
+#plR{
+    position: relative;
+    margin-left: 50%;
+    z-index: -1;
+    width: 50%;
+    opacity: 0.8;
+}
+
+#pR{
+    margin-top: -400px;
+    text-align: right;
+    font-size: 18px;
+    width: 70%;
+    margin-left: 20%;
+    color: #000000;
+    position: absolute;
+    z-index: 1;
+}
+
+.fstword{
+    font-size: 22px;
+    color: #52ac31;
+}
+
+.services{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servicesbox{
+    font-weight: 700;
+    width: 20%;
+    margin: 2.5%;
+    float: left;
+    text-align: center;
+    color: #418827;
+}
+
+.servicesico{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    color: #52ac31;
+}
+
+.servicesico:hover{
+    color: #52ac31;
+    cursor: default;
+}
+
+/* .servicephotos{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.servicephotos > img{
+    border-radius: 10px;
+    width: 20%;
+    margin: 0 2.3%;
+}
+
+.servicephotos > img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+} */
+
+.gallery{
+    margin: 20px 93px;
+    width: 150px;
+    float: left;
+}
+
+.gallery:hover{
+    opacity: 0.6;
+}
+
+.gallery img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.sociallink{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fb{
+    margin: 0 14%;
+    float: left;
+    font-size: 50px;
+    color: #52ac31;
+}
+
+.fb:hover{
+    color: #418827;
+}
+
+.tw{
+    margin: 0 14%;
+    float: left;
+    font-size: 50px;
+    color: #52ac31;
+}
+
+.tw:hover{
+    color: #418827;
+}
+
+.gp{
+    margin: 0 14%;
+    float: left;
+    font-size: 50px;
+    color: #52ac31;
+}
+
+.gp:hover{
+    color:#418827;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    color: #418827;
+    font-size: 16px;
+}
